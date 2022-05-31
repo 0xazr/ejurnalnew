@@ -3,12 +3,12 @@
 #-------------------------
 
 # OS X
-.DS_Store
+.DSStore
 .AppleDouble
 .LSOverride
 
 # OS X Thumbnails
-._*
+.*
 
 # Windows image file caches
 Thumbs.db
@@ -28,20 +28,19 @@ $RECYCLE.BIN/
 *.lnk
 
 # Linux
-*~
+~
 
 # KDE directory preferences
 .directory
 
 # Linux trash folder which might appear on any partition or disk
-.Trash-*
+.Trash-
 
 #-------------------------
 # Environment Files
 #-------------------------
 # These should never be under version control,
 # as it poses a security risk.
-.env
 .vagrant
 Vagrantfile
 
@@ -114,7 +113,7 @@ nb-configuration.xml
 *.tmPreferences.cache
 *.stTheme.cache
 *.sublime-workspace
-*.sublime-project
+.sublime-project
 .phpintel
 /api/
 
@@ -122,6 +121,5 @@ nb-configuration.xml
 .vscode/
 
 /results/
-/phpunit*.xml
+/phpunit.xml
 /.phpunit.*.cache
-
