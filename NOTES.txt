@@ -1,0 +1,56 @@
+[Editor] 1. Add Self untuk submission yang telah dipilih. (assignment)
+[Editor] 2. Upload File Review Version (submission_revision_file) XX-YY-Z-RV.pdf
+[Editor] 3. Select Reviewer untuk submission yang telah dipilih (assignment)
+  // Reviewer auto tertunjuk
+[Reviewer] 4. Reviewer memilih response
+  // Gak usah email
+  // Lalu muncul file RV dan SP
+
+[Reviewer] 5. File akan muncul di hal reviwer
+[Reviewer] 6. Reviewer mengirimkan RV Version
+[Reviewer] 7. Reviewer memilih recommendation
+
+// Default Let author view file = true
+[Editor] 8. Memilih Decision lalu Record
+[Editor] 9. 
+
+
+
+- 'assignment'
+    - 'id_assignment'
+    - 'editor_id'
+    - 'id_round'
+    - 'id_reviewer'
+    - 'id_decision'
+
+- 'submission_revision_file'
+    - 'submission_revision_file_id'
+    - 'user_id'
+    - 'file_name'
+    - 'original_file_name'
+    - 'file_size'
+    - 'uploaded_at'
+    - 'updated_at'
+    - 'submission_id'
+    - 'file_address'
+
+- 'reviewer_response'
+    - 'id_reviewer_response'
+    - 'id_reviewer'
+    - 'id_submission' 
+    - 'response'        1->"Yes", 0->"No"
+    - 'date_response'
+
+- 'reviewer_recommendation'
+    - 'id'
+    - 'recommendation'
+    - 'id_submission'
+    - 'reviewer_id'
+    - 'date_created'
+
+
+Author:  username/password:  cyntian / cynti4n
+
+Editor: username/password:  barunanto / barun4nt0
+
+Reviewer: username/password:  prayogi / pray0g!
